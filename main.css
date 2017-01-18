@@ -74,7 +74,7 @@ body {
 }
 
 .Per {
-    font-family: BZar,'BZar',tahoma;
+    font-family: 'BZar',tahoma;
     line-height: 1px;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .Pertext {
-    font-family: BZar,'BZar',tahoma;
+    font-family: 'BZar',tahoma;
     font-size: 1.6em;
     color: dimgrey;
     margin: 5% 40% 2% 1%;
