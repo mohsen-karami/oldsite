@@ -153,11 +153,11 @@ hr {
 }
 
 .ribbon {
-  font-size: 45px;
+  font-size: 30px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #333;
   text-align: center;
-  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  text-shadow: rgba(0,0,0,0.9) 0px 3px 30px;
   -webkit-transform: rotate(45deg);
   -moz-transform:    rotate(45deg);
   -ms-transform:     rotate(45deg);
@@ -165,14 +165,10 @@ hr {
   position: relative;
   padding: 20px 200px 20px 200px;
   left: -80px;
-  top: 20px;
-  width: 90px;
+  top: 50px;
+  width: 190px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
   background-image: -webkit-linear-gradient(top, rgba(35, 41, 60, 0.9), rgba(35, 41, 60, 0.7));
   color: white;
-  box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-}
-
-* {
-    
+  box-shadow: 0px 0px 3px rgba(255,255,255,0.5);
 }
