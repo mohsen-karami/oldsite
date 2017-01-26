@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 60%,rgba(256,256,256,0.5) 100%), url(dns.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    margin-top: 15%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h5 {
+    text-align: center;
+    color: beige;
+    font-size: 30px;
+    margin-top: -5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.button {
+    margin-left: 16%;
+    width: 5%;
+    height: 75px;
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid white 1px;
+    border-radius: 100%;
+    transition: all 0.2s ease 0s;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.last {
+    margin-bottom: 10%;
+}
+
