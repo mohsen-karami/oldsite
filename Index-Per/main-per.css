@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 60%,rgba(256,256,256,0.5) 100%), url(dns.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    margin-top: 15%;
+    font-family: BZar,'BZar',tahoma;
+}
+
+h5 {
+    font-weight: 500;
+    text-align: center;
+    color: rgba(42, 45, 54, 0.7);
+    font-size: 80px;
+    margin-top: -5%;
+    margin-bottom: 0;
+    font-family: BZar,'BZar',tahoma;
+}
+
+.button {
+    position: absolute;
+    margin-top: 5%;
+    width: 5em;
+    height: 5em;
+    font-size: 15px;
+    font-family: BZar,'BZar',tahoma;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid white 1px;
+    border-radius: 100%;
+    transition: all 0.2s ease 0s;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+    margin-left:19%;
+}
