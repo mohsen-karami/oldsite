@@ -147,7 +147,7 @@ hr {
   width: 300px;
   height: 300px;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   top: -3px;
   right: -3px;
 }
