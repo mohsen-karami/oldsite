@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'BZar';
-	src: 	url("B_Zar.ttf") format("ttf");
+    font-family: "BZar";
+    src: url(BZar.ttf) format("ttf");
 }
 
 body {
