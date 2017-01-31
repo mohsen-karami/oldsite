@@ -1,6 +1,8 @@
 @font-face {
-    font-family: "BZar";
-    src: url(https://github.com/mrgeo22/mrgeo22.github.io/blob/master/B_Zar.ttf?raw=true) format("ttf");
+font-family: 'BZar';
+src: url('http://fontonline.ir/fonts/BZar.eot?#') format('eot'),
+url('http://fontonline.ir/fonts/BZar.ttf') format('ttf'),
+url('http://fontonline.ir/fonts/BZar.woff') format('woff');
 }
 
 body {
