@@ -13,9 +13,8 @@ body {
 .laptop {
     width: 40%;
     height: 35em;
-    margin: 5em 3em;
+    margin: 5em 1em 5em 0;
     float: right;
-    position: absolute;
 }
 
 .whitebox {
