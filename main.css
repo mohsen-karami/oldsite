@@ -11,9 +11,9 @@ body {
 }
 
 .laptop {
-    width: 40em;
-    height: 34em;
-    margin: 8em 0 5em 0;
+    width: 40%;
+    height: 30em;
+    margin: 8em 0 5em 2em;
     float: right;
     position: absolute;
 }
