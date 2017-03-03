@@ -8,7 +8,7 @@ body {
     text-align: center;
     color: white;
     font-size: 10vw;
-    margin-top: 13vw;
+    margin-top: 5vw;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .button {
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 7vw;
     width: 5vw;
     height: 5vw;
     font-size: 1vw;
@@ -42,8 +42,21 @@ a {
     margin-left: 15vw;
 }
 
-.description:hover, .description:focus {
-    text-decoration: none;
+.centerButton {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.btn-primary {
+    opacity: 0.8;
+    border: none;
+    margin-top: 5vw;
 }
 
 .iranh {
@@ -51,7 +64,15 @@ a {
     padding: 0;
 }
 
-@media screen and (max-width: 756px) {
+.modal-title {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 991px) {
     body {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 60%,rgba(256,256,256,0.5) 100%), url(dns.jpg);
     background-size: 100% 100%;
@@ -95,8 +116,39 @@ a {
     a {
         margin-left: 21.5vw;
     }
-
-    .description:hover, .description:focus {
-        text-decoration: none;
+    
+    .centerButton {
+        margin: 0;
+        padding: 0;
+        font-size: 4vw;
+        text-align: center;
     }
+
+    .row {
+        width: 100%;
+    }
+    
+    .btn {
+        
+    }
+    
+    .btn-primary {
+        opacity: 0.8;
+        border: none;
+        margin-top: 5vw;
+    }
+
+    .iranh {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .modal-title {
+        font-size: 4vw;
+    }
+    
+    p {
+        font-size: 3vw;
+    }
+
 }
