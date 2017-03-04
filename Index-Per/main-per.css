@@ -14,6 +14,7 @@ body {
 
 #moralText {
     font-weight: 500;
+    width: 97%;
     text-align: center;
     color: rgba(42, 45, 54, 0.7);
     font-size: 6vw;
