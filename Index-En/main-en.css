@@ -131,10 +131,6 @@ p {
         width: 100%;
     }
     
-    .btn {
-        
-    }
-    
     .btn-primary {
         opacity: 0.8;
         border: none;
@@ -154,4 +150,10 @@ p {
         font-size: 3vw;
     }
 
+}
+
+@media only screen and (min-width: 992px) {
+    #btn {
+    margin-left: 37.5%;
+    }
 }
