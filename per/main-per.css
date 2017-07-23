@@ -45,6 +45,10 @@ a {
     margin-left: 15vw;
 }
 
+p a {
+    margin-left: 0;
+}
+
 .centerButton {
     margin: 0;
     padding: 0;
