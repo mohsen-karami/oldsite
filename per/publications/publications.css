@@ -452,8 +452,12 @@ svg {
         font-size: 4vw;
     }
     
-    #infoSecureText a {
+    .license {
         font-size: 3vw;
+    }
+    
+    .bookLink {
+        font-size: 4vw;
     }
     
     #bookDescription {
