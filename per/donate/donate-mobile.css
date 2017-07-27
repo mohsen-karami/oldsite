@@ -1,0 +1,240 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+.nav {
+    font-family: BZar,'BZar',tahoma;
+    font-size: 1.6vw;
+}
+
+#avatar {
+    border-radius: 100%;
+    height: 3vw;
+    float: left;
+    margin-right: 1vw;
+    margin-top: -0.7vw;
+}
+
+.navigation {
+    color: rgb(27,40,51);
+    margin-top: 0.8vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-right: 2vw;
+}
+
+#time {
+    direction: rtl;
+}
+/* Zarinpal */
+#zarinpal {
+    background-image: linear-gradient(225deg, rgba(115,200,169, 0.85) 10%, rgba(19,78,94, 0.85) 70%), url(pixel.png);
+    background-repeat: repeat;
+    height: 95vh;
+}
+
+#zarinPic {
+    width: 40vh;
+    float: left;
+    margin-top: 10vw;
+    margin-left: 15vw;
+}
+
+#zarinLogo {
+    width: 40vw;
+    float: right;
+    margin-top: 8vw;
+    margin-right: 30vw;
+}
+
+#zarinpal p {
+    width: 80vw;
+    color: snow;
+    float: right;
+    font-size: 3vh;
+    margin-right: 10vw;
+    text-align: justify;
+    direction: rtl;
+    margin-top: 5vw;
+    font-family: BZar,'BZar',tahoma;
+}
+/* payment button */
+#download {
+    font-family: BZar,'BZar',tahoma;
+    float: right;
+    margin-top: 3vh;
+    margin-right: 25vw;
+}
+
+#download button {
+    background-color: transparent;
+    color: snow;
+    border: 1px solid snow;
+    font-size: 4vh;
+    width: 50vw;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    padding-top: 1vh;
+    height: 7vh;
+}
+
+#download button:hover {
+    background: snow;
+    color: rgb(19,78,94);
+}
+
+.fa-credit-card {
+    float: left;
+    padding-top: 0.5vh;
+    margin-left: 1vw;
+}
+/* Governmental Payment Methods */
+#govPay {
+    background-color: white;
+    height: 245vh;
+    margin-top: -3vh;
+    box-shadow: 0 -1vh 8vh black;
+}
+
+#govPay img {
+    width: 50vw;
+    float: right;
+    margin-right: 25vw;
+    margin-top: 10vh;
+}
+
+#govPay p {
+    font-family: BZar,'BZar',tahoma; 
+    font-size: 5vw;
+    width: 80vw;
+    direction: rtl;
+    text-align: justify;
+    float: right;
+    margin-top: 10vh;
+    margin-right: 10vw;
+}
+
+@media only screen and (max-width: 991px) {
+    /* navbar */
+    .nav {
+    font-family: BZar,'BZar',tahoma;
+    font-size:  1.5vw;
+    direction: rtl;
+    }
+    
+    #avatar {
+        border-radius: 100%;
+        height: 5vw;
+        float: left;
+        margin-right: 2vw;
+        margin-top: -1.5vw;
+    }
+
+    .navigation {
+        color: rgb(27,40,51);
+        margin-top: 0.8vw;
+        font-size:1.5vw;
+        font-weight: 500;
+    }
+    
+    #time {
+        margin-right: 40vw;
+        width: 20vw;
+        font-size: 2.5vw;
+    }
+    
+    #today {
+        margin-right: 37vw;
+        width: 20vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* navbar */
+    .nav {
+    font-family: BZar,'BZar',tahoma;
+    font-size:  3vw;
+    direction: rtl;
+    }
+    
+    #avatar {
+        border-radius: 100%;
+        height: 6vw;
+        float: left;
+        margin-right: 2vw;
+        margin-top: -1.5vw;
+    }
+
+    .navigation {
+        color: rgb(27,40,51);
+        margin-top: 0.8vw;
+        font-size: 3.5vw;
+        font-weight: 500;
+    }
+    
+    #time {
+        margin-left: 45vw;
+    }
+    
+    #today {
+        margin-left: 33vw;
+    }
+    
+    #govPay {
+        height: 210vh;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    /* navbar */
+    .nav {
+    font-family: BZar,'BZar',tahoma;
+    font-size:  5vw;
+    direction: rtl;
+    }
+    
+    #avatar {
+        border-radius: 100%;
+        height: 8vw;
+        float: left;
+        margin-right: 2vw;
+        margin-top: -1.5vw;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    /* navbar */
+    #avatar {
+        border-radius: 100%;
+        height: 10vw;
+        float: left;
+        margin-right: 4vw;
+        margin-top: -2vw;
+    }
+}
+
+/* Loading Bar */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: rgba(27,40,51,0.6);
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
