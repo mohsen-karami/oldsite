@@ -168,9 +168,13 @@ svg {
     font-family: BZar,'BZar',tahoma;
 }
 
-#infoSecureText a {
+.license {
         font-size: 1.3vw;
     }
+
+.bookLink {
+    font-size: 2vw;
+}
     
 #bookDescription {
     color: darkslategray;

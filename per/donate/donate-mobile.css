@@ -31,13 +31,13 @@ body {
 #zarinpal {
     background-image: linear-gradient(225deg, rgba(115,200,169, 0.85) 10%, rgba(19,78,94, 0.85) 70%), url(pixel.png);
     background-repeat: repeat;
-    height: 95vh;
+    height: 105vh;
 }
 
 #zarinPic {
-    width: 40vh;
+    width: 70vw;
     float: left;
-    margin-top: 10vw;
+    margin-top: 15vh;
     margin-left: 15vw;
 }
 
@@ -183,7 +183,7 @@ body {
     }
     
     #govPay {
-        height: 210vh;
+        height: 220vh;
     }
 }
 
