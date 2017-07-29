@@ -81,7 +81,22 @@ p a {
 p {
     font-size: 1.5vw;
     text-align: right;
+    direction: rtl;
     font-family: BZar,'BZar',tahoma;
+}
+/* Links */
+.link {
+    font-family: BZar,'BZar',tahoma;
+    color: #4293FF;
+}
+
+.link:hover, .link:focus {
+    color: #26385E;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: darkslategray;
 }
 
 @media only screen and (max-width: 991px) {
